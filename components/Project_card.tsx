@@ -18,14 +18,14 @@ const Project_card = ({
   Github: string;
 }) => {
   return (
-    <div className="flex lg:flex-row lg:space-x-4 items-center p-[5rem_0] flex-col h-[30rem]">
-      <div className="flex-1 bg-[#64FFDA] rounded-md w-[35rem]">
+    <div className="flex lg:flex-row lg:space-x-4 items-center p-[5rem_0_0] flex-col lg:h-[30rem]">
+      <div className="flex-1 bg-[#64FFDA] rounded-md lg:w-[35rem] w-full">
         <Image
           src={Image_link}
           alt="Brokar"
           width={600}
           height={600}
-          className="hover:opacity-[60%] object-fit transition-all duration-700 ease-in h-[20rem] w-[560px]"
+          className="hover:opacity-[60%] lg:object-cover transition-all duration-700 ease-in h-[20rem] lg:w-[560px] w-full"
         />
       </div>
       <div className="flex-1 space-y-5 p-3">
@@ -35,7 +35,7 @@ const Project_card = ({
           </h1>
         </a>
         <p className="text-justify text-[#8892B0] font-Fira">{Description}</p>
-        <div className="flex space-x-4 justify-end font-Fira text-[#64FFDA]">
+        <div className="flex space-x-4 justify-end font-Fira text-[#64FFDA] text-[0.7rem]">
           {Technologies.split(",").map((tech) => {
             return <p>{tech}</p>;
           })}

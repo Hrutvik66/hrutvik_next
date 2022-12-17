@@ -9,7 +9,7 @@ const Navbar = () => {
     setMenu(!menu);
   }
   return (
-    <div className="flex justify-between items-center p-[1rem] bg-[#0a192fc1] px-[4rem] font-Fira fixed w-[100%] backdrop-blur-lg z-50">
+    <div className="flex justify-between items-center p-[1rem] bg-[#0a192fc1] lg:px-[4rem] px-[2rem] font-Fira fixed w-[100%] backdrop-blur-lg z-50">
       <a href="#">
         <img src="/Black_Logo.gif" alt="H" className="h-8" />
       </a>

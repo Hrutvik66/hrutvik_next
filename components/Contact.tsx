@@ -108,13 +108,13 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="lg:p-[4rem_10rem_4rem_10rem] p-[1rem] font-Inter"
+      className="lg:p-[4rem_5rem_4rem_9rem] p-[1rem] font-Inter"
     >
       <div className="flex items-center pb-[2rem] text-[#ccd6f6]">
         <h1 className="font-bold text-[2rem]">Contact Me</h1>
         <hr className="flex-1 h-1px ml-[1rem] border-solid bg-[#ccd6f6] outline-none" />
       </div>
-      <div className="flex lg:flex-row flex-col items-center p-[2rem_0rem] font-Fira justify-center text-white space-x-6">
+      <div className="flex lg:flex-row lg:space-x-6 flex-col items-center p-[2rem_0rem] font-Fira justify-center text-white space-x-0">
         <div className="flex-1 text-[1rem] text-[#8892b0] leading-[26px]">
           <h1 className="mb-[1rem] font-bold text-[2rem] text-[#ccd6f6] text-center">
             Get In Touch
@@ -125,8 +125,8 @@ const Contact = () => {
             my best to get back to you!
           </p>
         </div>
-        <div className="flex flex-col flex-1 font-Abel mt-[2rem]">
-          <div className="flex justify-between">
+        <div className="flex flex-col flex-1 font-Abel mt-[2rem] w-full">
+          <div className="flex lg:flex-row flex-col justify-between">
             <div className="flex flex-col">
               <input
                 type="text"
@@ -134,7 +134,7 @@ const Contact = () => {
                 name="Name"
                 value={data.Name}
                 onChange={(e) => setData({ ...data, Name: e.target.value })}
-                className="md:w-[17rem] w-[10rem] p-[1rem] outline-none border-[1px] border-solid border-[#0a192f] rounded-[5px] bg-[#182438] text-white font-Fira  focus:border-[#00ffff] focus:border-spacing-[1rem]"
+                className="md:w-[17rem] p-[1rem] outline-none border-[1px] border-solid border-[#0a192f] rounded-[5px] bg-[#182438] text-white font-Fira  focus:border-[#00ffff] focus:border-spacing-[1rem]"
               />
               <span
                 id="nameMessage"
@@ -150,7 +150,7 @@ const Contact = () => {
                 name="Email"
                 value={data.Email}
                 onChange={(e) => setData({ ...data, Email: e.target.value })}
-                className="md:w-[17rem] w-[10rem] p-[1rem] outline-none border-[1px] border-solid border-[#0a192f] rounded-[5px] bg-[#182438] text-white font-Fira focus:border-[#00ffff] focus:border-spacing-[1rem]"
+                className="md:w-[17rem] p-[1rem] outline-none border-[1px] border-solid border-[#0a192f] rounded-[5px] bg-[#182438] text-white font-Fira focus:border-[#00ffff] focus:border-spacing-[1rem]"
               />
               <span
                 id="emailMessage"

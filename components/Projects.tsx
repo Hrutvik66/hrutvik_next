@@ -5,7 +5,7 @@ import projects from "../data/Project_data.json";
 const Projects = () => {
   return (
     <div
-      className="lg:p-[5rem_10rem_5rem_10rem] p-[1rem] font-Inter"
+      className="lg:p-[5rem_5rem_5rem_9rem] p-[1rem] font-Inter"
       id="Projects"
     >
       <div className="flex items-center text-[#ccd6f6]">

@@ -3,7 +3,7 @@ import { Facebook, GitHub, Instagram, Linkedin } from "react-feather";
 
 const SocialMedia = () => {
   return (
-    <div className="fixed top-[40%] left-[3rem] h-[60%]">
+    <div className="fixed top-[40%] left-[3rem] h-[60%] lg:flex hidden">
       <ul className="flex flex-col justify-evenly h-[100%] w-[2rem] items-center">
         <li className="text-[#ccd6f6] ">
           <a href="#">
