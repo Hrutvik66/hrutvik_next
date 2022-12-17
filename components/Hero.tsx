@@ -4,29 +4,17 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div
-      className="pt-[8rem] pr-[5rem] pl-[8rem] flex items-center justify-between"
-      id="Home"
-    >
-      <div className="space-y-2 p-[1rem] flex-[1.5]">
-        <h1 className="text-[5rem] text-[#47f7bc] font-Lobster font-bold leading-[6rem]">
-          Hrutvik <br /> Malshikare
+    <div className="lg:p-[8rem_10rem_2rem_10rem] p-[5rem_1rem] " id="Home">
+      <div className="space-y-2 flex-[1.5] w-full">
+        <p className="text-[#64FFDA] font-Fira text-[1.2rem]">Hi, my name is</p>
+        <h1 className="lg:text-[5rem] text-[4rem] text-[#fcfcfc] font-Inter font-bold">
+          Hrutvik Malshikare
         </h1>
         <div className="mb-[3rem]">
-          <p className="text-[2rem] text-[#ccd6f6] font-Fira">I am</p>
-          <div className="text-[2.5rem] text-[#898aa6] font-Fira leading-[3rem]">
-            <Typewriter
-              options={{
-                strings: [
-                  "Website Developer",
-                  "Application Developer",
-                  "Development Tech Enthusiast",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </div>
+          <h2 className="lg:text-[5rem] inline-block text-[4rem] text-[#8892B0] font-Inter font-bold lg:leading-[3rem] leading-[2rem]">
+            I build the applications.
+          </h2>
+          <p className="text-[1.3rem] text-[#8892B0] font-Inter my-10 w-[35rem] text-justify">I am a developer who develops web as well as mobile applications. I am development technology enthusiast. Currently, I am focusing on learning more technologies.</p>
         </div>
         <div>
           <a href="#Contact">
@@ -37,9 +25,6 @@ const Hero = () => {
             </button>
           </a>
         </div>
-      </div>
-      <div className="flex-1">
-        <img src="./Hero_image.gif" className="h-[30rem] w-[35rem]" />
       </div>
     </div>
   );

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Brokar",
+    "Description": "An E-commerce web application to sell user's products. User can upload their products and sell them. User can also buy products from other users. User can also chat with other users. User can also login using Google Auth. User can also add products to their cart and buy them. User can also add products to their wishlist. There is a notification system for users.",
+    "Technologies": "Nextjs,Tailwind_CSS,Firebase,VS_Code,Google_Auth",
+    "Image_link": "/Next-web.png",
+    "Link": "https://brokar.vercel.app/",
+    "Github": ""
+  },
+  {
+    "Name": "ChatApp",
+    "Description": "A Chat web application For one to one chat between users. User can also login using Google Auth. User can chat with other users very easily. Simple UI to use.",
+    "Technologies": "Nextjs,Tailwind_CSS,Firebase,VS_Code,Google_Auth",
+    "Image_link": "/Chat-web.png",
+    "Link": "https://chatapp-nextjs.vercel.app/",
+    "Github": ""
+  },
+  {
+    "Name": "Movie Recommendation",
+    "Description": "A Movie Recommendation web application. User can search for movies and get recommendations for them. I have used 5000 movie dataset to train the model. I have used KNN algorithm to train the model.",
+    "Technologies": "Streamlit, Python, VS_Code, KNN_algorithm",
+    "Image_link": "/Movies-web.png",
+    "Link": "https://hrutvik66-movie-recommender-using-knn-appmain-f6ob8w.streamlit.app/",
+    "Github": ""
+  }
+]

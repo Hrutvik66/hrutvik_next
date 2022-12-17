@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import SocialMedia from "../components/SocialMedia";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
       <Navbar />
+      <SocialMedia/>
       <Hero />
       <About />
       <Projects />

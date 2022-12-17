@@ -1,0 +1,50 @@
+ {/* Project 2 */}
+        <div className="rounded-lg h-[25rem] pb-[4rem] p-[0.5rem] font-Fira transition-all duration-700 ease-in-out mb-[9rem]">
+          <img
+            className="absolute h-[26rem] w-[40rem] flex-1"
+            src="../Chat-web.png"
+            alt="project2"
+          />
+          <div className="absolute bg-[#121c2b6a] h-[26rem] w-[40rem] hidden "></div>
+          <div className="relative flex flex-col space-y-4 justify-center h-full">
+            <h1 className="font-bold text-[2rem] text-right">Chat App</h1>
+            <div className="backdrop-blur-lg bg-[#121c2b] p-4 rounded-md w-[40rem] self-end text-justify">
+              <p className="backdrop-blur-md">
+                A Chat web application For one to one chat between users. User
+                can also login using Google Auth. User can chat with other users
+                very easily. Simple UI to use.
+              </p>
+            </div>
+            <div className="flex space-x-3 justify-end">
+              <p>Nextjs</p>
+              <p>Tailwind CSS</p>
+              <p>Firebase</p>
+              <p>VS Code</p>
+              <p>Google Auth</p>
+            </div>
+          </div>
+        </div>
+
+        
+Project 1
+<div className="lg:relative absolute flex flex-col space-y-4 justify-center lg:h-full lg:w-[60%] lg:-right-[40%] lg:-top-[17%] -top-[0.5%] lg:p-0 p-[4rem] bg-[#121c2beb] lg:bg-inherit w-full">
+            <h1 className="font-bold text-[2rem] text-right">E-commerce</h1>
+            <div className="backdrop-blur-lg lg:bg-[#121c2b] lg:p-4 rounded-md lg:w-[40rem] self-end text-justify">
+              <p className="backdrop-blur-md">
+                An E-commerce web application to sell user's products. User can
+                upload their products and sell them. User can also buy products
+                from other users. User can also chat with other users. User can
+                also login using Google Auth. User can also add products to
+                their cart and buy them. User can also add products to their
+                wishlist. There is a notification system for users.
+              </p>
+            </div>
+            <div className="flex space-x-3 justify-end">
+              <p>Nextjs</p>
+              <p>Tailwind CSS</p>
+              <p>Firebase</p>
+              <p>VS Code</p>
+              <p>Google Auth</p>
+            </div>
+          </div>
+        </div>
