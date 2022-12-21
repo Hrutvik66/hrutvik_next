@@ -37,7 +37,7 @@ const Project_card = ({
         <p className="text-justify text-[#8892B0] font-Fira">{Description}</p>
         <div className="flex md:space-x-4 space-x-2 justify-end font-Fira text-[#64FFDA] text-[0.7rem]">
           {Technologies.split(",").map((tech) => {
-            return <p>{tech}</p>;
+            return <p key={tech}>{tech}</p>;
           })}
         </div>
         <div className="flex justify-end space-x-10 text-[#8892B0] ">

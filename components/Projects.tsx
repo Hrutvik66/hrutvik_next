@@ -14,7 +14,7 @@ const Projects = () => {
       </div>
       {
         projects.map((project) => {
-          return <Project_card {...project} key={project.Github} />;
+          return <Project_card {...project} key={project.Name} />;
         })
       }
     </div>
