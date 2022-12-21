@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { CornerDownRight } from "react-feather";
 
@@ -56,9 +57,11 @@ const About = () => {
           </div>
         </div>
         <div className="flex-1 lg:mb-0 mb-[3rem]">
-          <img
-            src="../Hrutvik.jpg"
+          <Image
+            src="/Hrutvik.jpg"
             alt="Hrutvik"
+            height={500}
+            width={400}
             className="h-[25rem] w-[20rem] relative lg:left-[20%] shadow-[10px_20px_#00fffbca] rounded-md"
           />
         </div>
