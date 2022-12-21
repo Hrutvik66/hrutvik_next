@@ -1,9 +1,9 @@
 import React from "react";
+//feather Icon
 import { Facebook, GitHub, Instagram, Linkedin } from "react-feather";
-import Typewriter from "typewriter-effect";
-import Button from "./Button";
 
 const Hero = () => {
+  
   return (
     <div className="lg:p-[8rem_5rem_2rem_9rem] p-[10rem_2rem] " id="Home">
       <div className=" flex-[1.5] w-full">

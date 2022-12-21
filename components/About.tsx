@@ -27,29 +27,29 @@ const About = () => {
           <div className="flex mt-[1rem]">
             <div className="leading-10 flex-1">
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>Nextjs</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>MongoDB</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>Javascript</p>
               </div>
             </div>
             <div className="leading-10 flex-1">
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>Reactjs</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>Tailwind CSS</p>
               </div>
               <div className="flex items-center space-x-2">
-                <CornerDownRight className="mb-[0.6rem]"/>
+                <CornerDownRight className="mb-[0.6rem] text-[#64FFDA]"/>
                 <p>Firebase</p>
               </div>
             </div>
