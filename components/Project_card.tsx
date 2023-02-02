@@ -25,7 +25,7 @@ const Project_card = ({
           alt="Brokar"
           width={600}
           height={600}
-          className="hover:opacity-[60%] lg:object-cover transition-all duration-700 ease-in-out lg:h-[25rem] h-[20rem] w-full "
+          className="hover:opacity-[60%] lg:object-cover transition-all duration-700 ease-in-out md:h-[23rem] h-[20rem] w-full "
         />
       </div>
       <div className="flex-1 space-y-5 p-3">

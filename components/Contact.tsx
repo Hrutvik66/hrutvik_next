@@ -96,6 +96,12 @@ const Contact = () => {
             Subject: "",
             Message: "",
           });
+          setMessage({
+            EmailMessage: "",
+            NameMessage: "",
+            SubjectMessage: "",
+            MessageMessage: "",
+          });
         } else {
           toast.error("Something went wrong, please try again later");
         }
@@ -108,7 +114,7 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="lg:p-[4rem_5rem_4rem_9rem] p-[1rem] font-Inter"
+      className="lg:p-[4rem_5rem_4rem_9rem] p-[3.5rem_1rem_1rem] font-Inter"
       
     >
       <div className="flex items-center pb-[2rem] text-[#ccd6f6]">
@@ -120,7 +126,7 @@ const Contact = () => {
           <h1 className="mb-[1rem] font-bold text-[2rem] text-[#ccd6f6] text-center">
             Get In Touch
           </h1>
-          <p className="md:text-[1.2rem] text-justify">
+          <p className="md:text-[1.1rem] text-justify">
             I am currently looking for any new opportunities, my inbox is always
             open. Whether you have a question or just want to say hi, I will try
             my best to get back to you!

@@ -6,7 +6,16 @@ const Hero = () => {
   
   return (
     <div className="lg:p-[8rem_5rem_2rem_9rem] p-[10rem_2rem] " id="Home">
-      <div className=" flex-[1.5] w-full">
+      {/* GIF */}
+      <div className="opacity-20">
+        <img src="/Github.gif" alt="Github" className="absolute top-24 md:right-96 right-80  h-36 w-36 -z-10" />
+        <img src="/Typescript.gif" alt="Typescript" className="absolute top-24 md:right-20 right-16  h-36 w-36 -z-10" />
+        <img src="/CSS.gif" alt="CSS" className="absolute top-96 md:right-96 right-80  h-36 w-36 -z-10" />
+        <img src="/React.gif" alt="React" className="absolute top-96 md:right-20 right-16  h-36 w-36 -z-10" />
+        <img src="/web.svg" alt="web" className="absolute top-44 md:right-28 right-20  h-80 w-80 -z-10" />
+      </div>
+      {/* Home content */}
+      <div className=" flex-[1.5] w-full z-10">
         <p className="text-[#64FFDA] font-Fira md:text-[1.2rem] text-[0.9rem]">
           Hi, my name is
         </p>
@@ -32,6 +41,7 @@ const Hero = () => {
             </button>
           </a>
         </div>
+        {/* Social media icons */}
         <ul className="lg:hidden flex items-center space-x-8">
           <li className="text-[#ccd6f6] ">
             <a href="https://github.com/Hrutvik66">

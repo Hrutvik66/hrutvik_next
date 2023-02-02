@@ -5,7 +5,7 @@ import { CornerDownRight } from "react-feather";
 const About = () => {
   return (
     <div
-      className="lg:p-[5rem_5rem_5rem_9rem] p-[1rem] font-Inter"
+      className="lg:p-[5rem_5rem_5rem_9rem] p-[3.5rem_1rem_3.5rem] font-Inter"
       id="About"
     >
       <div className="flex items-center text-[#ccd6f6]">
@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="flex lg:flex-row flex-col-reverse items-center pt-[2rem] text-white font-Fira">
         <div className="flex-1 text-[#8892b0] text-[1rem] leading-[26px]">
-          <p className="flex md:text-[1.2rem] text-justify">
+          <p className="flex md:text-[1.1rem] text-justify">
             Hello! My name is Hrutvik and I am a Developer. I like to learn
             things related to Development. <br />
             <br />I started learning HTML and CSS first and now I am MERN
@@ -58,11 +58,11 @@ const About = () => {
         </div>
         <div className="flex-1 lg:mb-0 mb-[3rem]">
           <Image
-            src="/Hrutvik.jpg"
+            src="/Hrutvik2.0.jpg"
             alt="Hrutvik"
             height={500}
             width={400}
-            className="md:h-[25rem] md:w-[20rem] h-[20rem] w-[15rem] relative lg:left-[20%] shadow-[10px_20px_#00fffbca] rounded-md"
+            className="md:h-[25rem] md:w-[20rem] h-[20rem] w-[15rem] relative lg:left-[20%] shadow-[20px_20px_#00fffb] rounded-md object-cover hover:shadow-none transition-all duration-500 ease-in-out"
           />
         </div>
       </div>
