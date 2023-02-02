@@ -4,16 +4,16 @@
     "Description": "An E-commerce web application to sell user's products. User can upload their products and sell them. User can also buy products from other users. User can also chat with other users. User can also login using Google Auth. User can also add products to their cart and buy them. User can also add products to their wishlist. There is a notification system for users.",
     "Technologies": "Nextjs,Tailwind_CSS,Firebas,Google_Auth",
     "Image_link": "/Next-web.png",
-    "Link": "https://brokar.vercel.app/",
-    "Github": ""
+    "Link": "https://e-commerce-nextjs-gray.vercel.app/",
+    "Github": "https://github.com/Hrutvik66/E-commerce-Nextjs"
   },
   {
     "Name": "ChatApp",
     "Description": "A Chat web application For one to one chat between users. User can also login using Google Auth. User can chat with other users very easily. Simple UI to use.",
     "Technologies": "Nextjs,Tailwind_CSS,Firebas,Google_Auth",
     "Image_link": "/Chat-web.png",
-    "Link": "https://chatapp-nextjs.vercel.app/",
-    "Github": ""
+    "Link": "https://chat-app-three-xi.vercel.app/",
+    "Github": "https://github.com/Hrutvik66/ChatApp"
   },
   {
     "Name": "Movie Recommendation",
@@ -21,6 +21,6 @@
     "Technologies": "Streamlit, Python, KNN_algorithm",
     "Image_link": "/Movies-web.png",
     "Link": "https://hrutvik66-movie-recommender-using-knn-appmain-f6ob8w.streamlit.app/",
-    "Github": ""
+    "Github": "https://github.com/Hrutvik66/Movie_recommender_using_KNN"
   }
 ]

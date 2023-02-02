@@ -120,7 +120,7 @@ const Contact = () => {
           <h1 className="mb-[1rem] font-bold text-[2rem] text-[#ccd6f6] text-center">
             Get In Touch
           </h1>
-          <p className="text-[1.2rem] text-justify">
+          <p className="md:text-[1.2rem] text-justify">
             I am currently looking for any new opportunities, my inbox is always
             open. Whether you have a question or just want to say hi, I will try
             my best to get back to you!
